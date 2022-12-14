@@ -1,0 +1,92 @@
+@media screen and (max-width:1200px) {
+    
+    div.row{
+        display: grid;
+         grid-template-rows: auto;
+         grid-template-columns: auto;
+    }
+    img.cc1{
+        
+           width: 100vw;
+           height: 60vw;
+    }
+    .head{
+        margin-top:20px;
+        text-align: center;
+    }
+     .para{
+        margin: 10px;
+        padding:0px 10px;
+        text-align: justify;
+    }
+    .video{
+        width : 100vw; 
+        height :50vw;
+    }
+    .projectimg{
+        width:100vw;
+         height:60vw;
+    }
+    .form{
+        margin: 30px ;
+       background-color: lightgray;
+    }
+    h2{
+        text-align: center;
+    }
+    div.lebal{
+        text-align: center;
+        font-size: 22px;
+        margin: 20px;
+    }
+    label.text{
+        float: left;
+    }
+    input{
+        width: 80%;
+        height: 40px;
+    }
+    textarea{
+        
+        width: 80%;
+        height: 100px;
+    }
+    .btn{
+        font-weight: bold;
+         width: 100px;
+         height: 40px;
+         background-color: limegreen;
+    }
+    .button{
+        font-weight: bold;
+        width: 200px;
+        height: 30px;
+        background-color: black;
+    }
+    a.project{
+        color: white;
+    }
+    h1{
+        text-align: center;
+        margin: 30px 0px;
+    }
+    
+    .skill{
+        margin: 50px 0px;
+    }
+    
+    
+    footer{
+        color: white;
+        background: black;
+        height: 160px;
+        width: 100vw;
+        text-align: center;
+    }
+    .icon{
+        margin: 10px;
+        width: 70px;
+    }
+    
+    
+    }

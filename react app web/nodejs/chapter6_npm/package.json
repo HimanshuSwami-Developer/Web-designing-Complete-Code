@@ -1,0 +1,20 @@
+{
+  "name": "chapter6_npm",
+  "version": "1.0.0",
+  "description": "nice package",
+  "main": "chapter6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "special"
+  ],
+  "author": "himanshu",
+  "license": "ISC",
+  "dependencies": {
+    "Express": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

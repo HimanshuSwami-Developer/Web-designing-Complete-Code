@@ -1,0 +1,46 @@
+
+        * {
+            margin: 0%;
+            padding: 0%;
+            text-align: center;
+        }
+
+        body{
+            width: 100%;
+            height: 100%;
+            background:radial-gradient(white,black);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .form {
+            background-color: white;
+            width: 500px;
+           min-height: 520px;
+           max-height: 700px;
+            margin: 60px 30%;
+            border-radius: 7px;
+            border: 2px solid black;
+        }
+        h2{
+            margin: 6px 0px;
+        }
+        form label,input,textarea{
+            margin-top: 20px;
+            border-radius: 4px;
+        }
+        input{
+            padding: 5px 7px;
+        }
+        button{
+            margin-top: 15px;
+            width: 150px;
+            background: rgb(20, 235, 20);
+            height: 30px;
+        border-radius: 8px;
+        }
+        button:hover{
+            background: green;
+        }
+        span{
+            display: none;
+        }

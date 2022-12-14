@@ -1,0 +1,42 @@
+body{
+    margin: 0%;
+font-family: sans-serif;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    background: url("http://www.thewowstyle.com/wp-content/uploads/2015/01/nature-wallpapers-1.jpg")no-repeat;
+}
+h2{
+    padding-top: 12px;
+    font-size: 25px;
+}
+.register{
+    background:skyblue ;
+    width: 400px;
+    height: 400px;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+form{
+    background: white;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 280px;
+    height: 250px;
+    padding: 35px 50px;
+    margin: 0%;
+}
+.form{
+    margin: 0%;
+    padding:12px 0px;
+}
+input{
+    font-size: 20px;
+    padding:6px 30px;
+}
+form div{
+    margin: 25px 0px;
+}
+button{
+    padding: 5px 40px;
+}

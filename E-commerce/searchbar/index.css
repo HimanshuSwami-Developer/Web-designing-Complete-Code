@@ -1,0 +1,29 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    text-decoration: none;
+    background: radial-gradient(white,blue);
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 10px;
+}
+a{
+ text-decoration: none;
+ color: black;
+ border: 1px solid gray;
+ padding: 2px 400px 0px 2px;
+}
+a:hover{
+    color: white;
+    background: gray;
+}
+input{
+    padding: 2px 20px;
+    margin: 10px 100px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <label>First Number:</label><input id="num1" >
+   <br> <label>Second Number:</label><input id="num2">
+    <br><button onclick="add()">Sum:</button><input id="sum">
+
+    <div>
+        <h3>Welcome</h3>
+        <button onclick="myfunction()">click on</button>
+        <h1 id="hello"></h1>
+    
+    </div>
+
+    <script>
+    function myfunction(){
+     var i;
+        for(i=0 ;i<5 ;i++){
+        document.getElementById("hello").innerHTML ='hello there';
+    }
+    }
+
+function add(){
+        var x,y,z;
+        x = Number(document.getElementById("num1").value);
+        y = Number(document.getElementById("num2").value);
+         z=x+y;
+        document.getElementById("sum").value = z;
+        }
+    </script>
+</body>
+</html>

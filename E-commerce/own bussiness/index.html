@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SparkBolt</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        html,body {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            height: 100%;
+            width: 100%;
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="top1">
+            <div class="head1">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="logo.jpg" alt="">
+                </div>
+                  <input id="searchbar" onkeyup="search_animal()" type="text"
+                             class="searc
+                             h"   name="search" placeholder="Search animals.."> 
+                           
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Product</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Account</a></li>
+                            
+                        </ul>
+                    </nav>
+                    <img src="menu.jpg" alt="" onclick="menutoggle()" class="menu-icon">
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----content------ -->
+ <section>
+     <div class="content">
+           <!-- ordered list -->
+    <ol id='list'>
+        <li class="animals">Cat</li>
+        <li class="animals">Dog</li>
+        <li class="animals">Elephant</li>
+        <li class="animals">Fish</li>
+        <li class="animals">Gorilla</li>
+        <li class="animals">Monkey</li>
+        <li class="animals">Turtle</li>
+        <li class="animals">Whale</li>
+        <li class="animals">Aligator</li>
+        <li class="animals">Donkey</li>
+        <li class="animals">Horse</li>
+    </ol>
+      
+    <ul id="list">
+        <li><a href="#" class="animals">Flipkart</a></li>
+        <li><a href="#" class="animals">Amazon</a></li>
+        <li><a href="#" class="animals">Olx</a></li>
+        <li><a href="#" class="animals">Shopping</a></li>
+        <li><a href="../project 1/index.html" class="animals">Mintra</a></li>
+        <li><a href="#" class="animals">Japan festa</a></li>
+        <li><a href="#" class="animals">Comi-con</a></li>
+
+    </ul>
+
+
+     </div>
+ </section>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

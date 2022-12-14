@@ -1,0 +1,33 @@
+@media screen and (min-width:1200px) {
+    div.music{
+        margin-top: 400px;
+    }
+    audio{
+        width: 600px;
+    }
+    .img{
+        text-align: center;
+    }
+    img{
+        width: 400px;
+    }
+}
+@media screen and (max-width:1200px) {
+    div.music{
+        margin-top: 57vh;
+    }
+    div.music-web{
+        background: url("https://i0.wp.com/klemenz.si/wp-content/uploads/2019/08/Sound-Wave-gif.gif") no-repeat;
+        background-attachment: fixed;
+      background-size: 400px 800px;
+    }    
+    audio{
+        width: 300px;
+    }
+    .img{
+        text-align: center;
+    }
+    img{
+        width: 300px;
+    }
+}

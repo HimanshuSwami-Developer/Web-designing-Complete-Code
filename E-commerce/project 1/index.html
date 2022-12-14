@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>spax | e-commerce site</title>
+   <link rel="stylesheet" href="index.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet">
+   <style>
+      html,
+      body {
+         margin: 0%;
+         padding: 0%;
+         box-sizing: border-box;
+         overflow-x: hidden;
+         height: 100%;
+         width: 100%;
+         font-family: 'Poppins', sans-serif;
+      }
+   </style>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+
+   <div class="header">
+      <div class="container">
+         <div class="navbar">
+            <div class="logo">
+               <img src="images/logo.jpg" alt="">
+            </div>
+            <input id="searchbar" onkeyup="search_animal()" type="text"
+            class="search"   name="search" placeholder="Search animals.."> 
+
+            <nav>
+               <ul id="MenuItems">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Product</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Account</a></li>
+               </ul>
+            </nav>
+           <img src="images/menu.jpg" alt="" onclick="menutoggle()" class="menu-icon">
+         </div>
+
+         <div class="row">
+            <div class="col1">
+               <h1>Give Your Workout <br> A New Style!</h1>
+               <p>Lorem ipsum, dolor adipisicing elit. Dicta delectus accusantium unde <br> earum
+                  nesciunt laborum obcaecati facere. Incidunt saepe ab <br> reiciendis!
+               </p>
+               <a href="#" class="btn">Explore Now &#x279C;</a>
+            </div>
+            <div class="col2">
+               <img src="images/electronics06052015.jpg" alt="">
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <!-- --------featured categories------- -->
+   <div class="categories">
+      <div class="small-container">
+         <div class="row">
+            <div class="col-3">
+               <img src="images/A.jpg" alt="">
+            </div>
+            <div class="col-3">
+               <img src="images/M.jpg" alt="">
+            </div>
+            <div class="col-3">
+               <img src="images/d.jpg" alt="">
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <!-- --------featured product------- -->
+   <div class="small-container">
+      <h2 class="title">Featured Product</h2>
+      <div class="row" >
+         <div class="col-4" id="animals">
+            <img src="images/C.jpeg" >
+            <h4> T-Shirt</h4>
+            <div class="ratings">
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star-o'></i>
+            </div>
+            <p>$50.00</p>
+         </div>
+         <div class="col-4" id="animals">
+            <img src="images/D.jpg" alt="">
+            <h4> Half sleves T-Shirt</h4>
+            <div class="ratings">
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+            </div>
+            <p>$50.00</p>
+         </div>
+         <div class="col-4" id="animals">
+            <img src="images/B.jpg" alt="">
+            <h4>Black T-Shirt</h4>
+            <div class="ratings">
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+            </div>
+            <p>$50.00</p>
+         </div>
+         <div class="col-4" id="animals">
+            <img src="images/P.jpg" alt="">
+            <h4>Blue Shoes</h4>
+            <div class="ratings">
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+            </div>
+            <p>$50.00</p>
+         </div>
+      </div>
+      <h2 class="title">Latest Products</h2>
+      <div class="row" >
+         <div class="col-4" id="animals">
+            <img src="images/Q.jpg" alt="">
+            <h4>Infex HOT</h4>
+            <div class="ratings">
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+            </div>
+            <p>$50.00</p>
+         </div>
+
+         <div class="col-4" id="animals">
+            <img src="images/R.jpg" alt="">
+            <h4>IPhone</h4>
+            <div class="ratings">
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star-half-alt'></i>
+            </div>
+            <p>$50.00</p>
+         </div>
+
+         <div class="col-4" id="animals">
+            <img src="images/U.jpg" alt="">
+            <h4>BriteLing Watch</h4>
+            <div class="ratings">
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+            </div>
+            <p>$50.00</p>
+         </div>
+
+         <div class="col-4" id="animals">
+            <img src="images/V.jpg" alt="">
+            <h4>Titan</h4>
+            <div class="ratings">
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+            </div>
+            <p>$50.00</p>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-4" id="animals">
+            <img src="images/W.jpg" alt="">
+            <h4>Emperio</h4>
+            <div class="ratings">
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+            </div>
+            <p>$50.00</p>
+         </div>
+
+         <div class="col-4" id="animals">
+            <img src="images/X.jpg" alt="">
+            <h4>Silver</h4>
+            <div class="ratings">
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+            </div>
+            <p>$50.00</p>
+         </div>
+
+         <div class="col-4" id="animals">
+            <img src="images/S.jpg" alt="">
+            <h4>Nokia</h4>
+            <div class="ratings">
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+            </div>
+            <p>$50.00</p>
+         </div>
+
+         <div class="col-4" id="animals">
+            <img src="images/T.jpg" alt="">
+            <h4>Vivo</h4>
+            <div class="ratings">
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+               <i class='fas fa-star'></i>
+            </div>
+            <p>$50.00</p>
+         </div>
+      </div>
+   </div>
+
+   <!-- --------offer------ -->
+
+   <div class="offer">
+      <div class="small-container">
+         <div class="row">
+            <div class="col2">
+               <img src="/images/offer.jpg" alt="" class="offer-img">
+            </div>
+            <div class="col2">
+               <p>Exclusively Available on Red Apple</p>
+               <h1>Sony</h1>
+               <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam reprehenderit maxime omnis,
+                  deserunt nobis dolores Eos!</small>
+               <br> <a href="#" class="btn">Buy Now &#8594;</a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- --------testimonial------ -->
+   <div class="testimonial">
+      <div class="small-container">
+         <div class="row">
+            <div class="col-3">
+               <i class='fas fa-quote-left'></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, consequuntur?</p>
+               <div class="ratings">
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star-half-alt'></i>
+                  <i class='far fa-star'></i>
+               </div>
+               <img src="images/cast1.jpg" alt="">
+               <h3>Captain Roger</h3>
+            </div>
+            <div class="col-3">
+               <i class='fas fa-quote-left'></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, consequuntur?</p>
+               <div class="ratings">
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+               </div>
+               <img src="images/cast2.jpg" alt="">
+               <h3>Tony Stark</h3>
+            </div>
+            <div class="col-3">
+               <i class='fas fa-quote-left'></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, consequuntur?</p>
+               <div class="ratings">
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+                  <i class='fas fa-star'></i>
+               </div>
+               <img src="images/cast3.jpg" alt="">
+               <h3>Burce Banner</h3>
+            </div>
+         </div>
+      </div>
+   </div>
+
+<!-- -------brands------ -->
+<div class="brands">
+   <div class="small-container">
+      <div class="row">
+         <div class="col-5">
+            <img src="images/ford.jpg" alt="">
+         </div>
+         <div class="col-5">
+            <img src="images/addidas.jpg" alt="">
+         </div>
+         <div class="col-5">
+            <img src="images/huawei.jpg" alt="">
+         </div>
+         <div class="col-5">
+            <img src="images/supereme.jpg" alt="">
+         </div>
+      </div>
+   </div>
+</div>
+
+<!-- ----footer----- -->
+<div class="footer">
+<div class="container">
+   <div class="row">
+      <div class="footer-col-1">
+         <h3>Download Our App</h3>
+         <p>Download App For Andriod and Iso mobile phone</p>
+      <div class="app-logo">
+         <img src="images/applogo.jpg" alt="">
+         <img src="images/play-store.jpg" alt="">
+      </div>  
+      </div>
+      
+      <div class="footer-col-2">
+         <img src="images/logo.jpg" alt="">
+         <p>Our Purpose is to Sustainably Make The Pleasure and Benefits of Sports Accessible To The Many </p>
+      </div>
+      
+      <div class="footer-col-3">
+         <h3>Useful Links</h3>
+        <ul>
+           <li><a href="#">Coupons</a></li>
+           <li><a href="#">Blog Post</a></li>
+           <li><a href="#">Return Policy</a></li>
+           <li><a href="#">Join Affiliate</a></li>
+         </ul>   
+      </div>
+      
+      <div class="footer-col-3">
+         <h3>Follow Us</h3>
+        <ul>
+           <li><a href="#">Facebook</a></li>
+           <li><a href="#">Twitter</a></li>
+           <li><a href="#">Instagram</a></li>
+           <li><a href="#">Youtube</a></li>
+         </ul>   
+      </div>
+   </div>
+   <hr>
+   <p class="copyright">Copyright 2020 - Easy Tutorials</p>
+</div>
+</div>
+
+<script>
+   
+
+function search_animal() {
+	let input = document.getElementById('searchbar').value
+	input=input.toLowerCase();
+	let x = document.getElementById('animals');
+	
+	for (i = 0; i < x.length; i++) {
+		if (!x[i].innerHTML.toLowerCase().includes(input)) {
+			x[i].style.display="none";
+		}
+		else {
+			x[i].style.display="list-item";				
+		}
+	}
+}
+
+</script>
+   <script src="index.js"> </script>
+</body>
+
+</html>
